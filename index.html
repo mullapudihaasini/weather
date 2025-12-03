@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/weather.png" alt="" />
+        <label>Weather App</label>
+    </header>
+    <section>
+        <div class="container">
+            <div class="input-group">
+                <input type="text" id="cityName" placeholder="Enter city name" />
+                <button onclick="loadData()">Search</button>
+            </div>
+            <div class="weatherDetails" id="weatherDetails"></div>
+            <div class="errorMsg" id="errorMsg"></div>
+        </div>
+    </section>
+    <footer>Copyright @ 2025. All rights reserved.</footer>
+</body>
+</html>
