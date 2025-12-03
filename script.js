@@ -1,4 +1,4 @@
-const APIKEY = "6ff5c38786a23c28d3e209d902eff09e";
+const APIKEY = "2bf297d22711a5fd5ed7c879ea5f7e04";
 
 function loadData(){
     const city = cityName.value;
